@@ -2,6 +2,8 @@
 
 Installable pi package that adds a `/fetch` slash command.
 
+Repository: https://github.com/ibeex/pi-fetch
+
 `/fetch` retrieves web content and injects it into pi's session context so the next prompt can use it.
 
 ## Features
@@ -22,6 +24,13 @@ Installable pi package that adds a `/fetch` slash command.
 ## Install
 
 Because this repo now has a `package.json` with a `pi` manifest, you can install it as a pi package.
+
+### Clone the repository
+
+```bash
+git clone git@github.com:ibeex/pi-fetch.git
+cd pi-fetch
+```
 
 ### Install globally
 

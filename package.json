@@ -4,6 +4,11 @@
   "description": "pi extension that fetches web content into session context with Jina/raw fallback and cleaned previews",
   "type": "module",
   "keywords": ["pi-package"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ibeex/pi-fetch.git"
+  },
+  "homepage": "https://github.com/ibeex/pi-fetch",
   "scripts": {
     "clean": "echo 'nothing to clean'",
     "build": "echo 'nothing to build'",

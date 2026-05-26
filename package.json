@@ -1,5 +1,5 @@
 {
-  "name": "pi-fetch",
+  "name": "@ibeex/pi-fetch",
   "version": "0.1.0",
   "description": "pi extension that fetches web content into session context with Jina/raw fallback and cleaned previews",
   "type": "module",
@@ -9,6 +9,9 @@
     "url": "git@github.com:ibeex/pi-fetch.git"
   },
   "homepage": "https://github.com/ibeex/pi-fetch",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "clean": "echo 'nothing to clean'",
     "build": "echo 'nothing to build'",

@@ -1,6 +1,8 @@
-# pi-fetch
+# @ibeex/pi-fetch
 
 Installable pi package that adds a `/fetch` slash command.
+
+Published package name: `@ibeex/pi-fetch`
 
 Repository: https://github.com/ibeex/pi-fetch
 
@@ -24,6 +26,12 @@ Repository: https://github.com/ibeex/pi-fetch
 ## Install
 
 Because this repo now has a `package.json` with a `pi` manifest, you can install it as a pi package.
+
+### Install from npm
+
+```bash
+pi install npm:@ibeex/pi-fetch
+```
 
 ### Clone the repository
 
@@ -60,7 +68,7 @@ From outside this repo:
 pi -e /absolute/path/to/pi-fetch
 ```
 
-If you test from inside this repo and already have another copy of `pi-fetch` auto-loaded, disable extension auto-discovery to avoid duplicate `/fetch` commands:
+If you test from inside this repo and already have another copy of `@ibeex/pi-fetch` auto-loaded, disable extension auto-discovery to avoid duplicate `/fetch` commands:
 
 ```bash
 pi --no-extensions -e .
